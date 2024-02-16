@@ -4,7 +4,9 @@ public class Main {
         Student s1 = new Student("Matthew","Spring","1111111",
                 new myDate(8,31,2000), new myDate(6,21,2018));
         Faculty f1 = new Faculty("Carlos","Ramirez","2222222", new myDate(7,21,2018));
+        Admin a1 = new Admin("William","Robinson","3333333", new myDate(1,12,1995));
         System.out.println(s1.toString());
         System.out.println(f1.toString());
+        System.out.println(a1.toString());
     }
 }

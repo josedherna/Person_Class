@@ -67,7 +67,7 @@ public class Student extends Person{
         return "Student {" +
                 "First Name= " + firstName +
                 ", Last Name= " + lastName +
-                ", Student ID= " + getStudentID() +
+                ", Student ID= " + StudentID +
                 ", Enrollment Date= " + EnrollmentDate.toString() +
                 ", Graduation Date= " + GraduationDate.toString() +
                 '}';
